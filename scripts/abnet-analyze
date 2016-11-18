@@ -125,7 +125,7 @@ def benchmark(ctx, nstrings_min, nstrings_max, num_runs, benchmark_file, append,
             
         if kind == 'degrees' or kind == 'all':
             timein = time.time()
-            ds = abnet.process_strings.degrees(strings, min_ld, max_ld, sc)
+            ds = abnet.process_strings.generate_degrees(strings, min_ld, max_ld, sc)
             timeout = time.time()
             writer.writerow({'nstrings': nstrings, 'spark': ctx.obj['spark'], 'ncores': ncores, 'dt': timeout-timein, 'type': 'degrees',
                              'min_ld': min_ld, 'max_ld':max_ld})
