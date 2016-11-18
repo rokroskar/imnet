@@ -1,0 +1,10 @@
+*~
+.ipynb_checkpoints
+*.so
+*pyc
+*.log
+*.err
+*.jar
+build/
+lsf.*
+*.c
