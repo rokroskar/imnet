@@ -77,7 +77,7 @@ def random(ctx, nstrings, min_length, max_length):
 @click.option('--nstrings-min', default=100, help="Minimum number of strings to generate")
 @click.option('--nstrings-max', default=100, help="Maximum number of strings to generate")
 @click.option('--num-runs', default=1, help="Number of runs between nstrings-min and nstrings-max")
-@click.option('--benchmark-file', default='cdr3_analyze_benchmark.csv', help="File to store benchmark results")
+@click.option('--benchmark-file', default='abnet_analyze_benchmark.csv', help="File to store benchmark results")
 @click.option('--append/--no-append', default=True, help="Append to benchmark results")
 @click.option('--ncores', default=1, help="Number of cores used")
 @click.pass_context
