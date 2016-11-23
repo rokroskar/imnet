@@ -1,4 +1,4 @@
-# AbNet: a CDR3 Network Analysis Toolkit
+# AbNet: an Antibody Repertoire Network Construction Toolkit
 
 ## Installation
 ```
