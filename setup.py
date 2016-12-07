@@ -9,7 +9,7 @@ currdir = os.getcwd()
 
 setup(name="abnet",
       author="Rok Roskar",
-      version='0.1.post2',
+      version='0.1.post3',
       author_email="roskar@ethz.ch",
       url="http://github.com/rokroskar/abnet",
       package_dir={'abnet/': ''},
