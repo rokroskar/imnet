@@ -18,6 +18,6 @@ setup(name="abnet",
                                sources=["abnet/process_strings_cy.pyx"], 
                                include_dirs=[numpy.get_include()])]),
       scripts=['scripts/abnet-analyze'],
-      install_requires=['click', 'findspark'],
+      install_requires=['click', 'findspark', 'python-Levenshtein', 'scipy', 'networkx', 'pandas'],
       keywords=['pyspark','genomics', 'hpc','bioinformatics']
 )
