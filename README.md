@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-$ python setup.py install
+$ pip install abnet
 ```
 
 In addition to installing the `abnet` python library, this will also install the `abnet-analyze` script into your python `bin` directory. 
