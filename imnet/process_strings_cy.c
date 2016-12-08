@@ -269,8 +269,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__abnet__process_strings_cy
-#define __PYX_HAVE_API__abnet__process_strings_cy
+#define __PYX_HAVE__imnet__process_strings_cy
+#define __PYX_HAVE_API__imnet__process_strings_cy
 #include "string.h"
 #include "stdlib.h"
 #include "pythread.h"
@@ -491,7 +491,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "abnet/process_strings_cy.pyx",
+  "imnet/process_strings_cy.pyx",
   "stringsource",
 };
 /* MemviewSliceStruct.proto */
@@ -591,20 +591,20 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython;
+struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "abnet/process_strings_cy.pyx":52
+/* "imnet/process_strings_cy.pyx":52
  * 
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
  *     cdef int nstrings = len(strings)
  *     cdef int idx, my_idx, i
  */
-struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython {
+struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython {
   PyObject_HEAD
   int __pyx_v_i;
   int __pyx_v_idx;
@@ -1311,8 +1311,8 @@ static PyObject *__pyx_memoryviewslice_assign_item_from_object(struct __pyx_memo
 
 /* Module declarations from 'libc.stdlib' */
 
-/* Module declarations from 'abnet.process_strings_cy' */
-static PyTypeObject *__pyx_ptype_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = 0;
+/* Module declarations from 'imnet.process_strings_cy' */
+static PyTypeObject *__pyx_ptype_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = 0;
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -1357,10 +1357,10 @@ static void __pyx_memoryview_refcount_objects_in_slice(char *, Py_ssize_t *, Py_
 static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size_t, void *, int); /*proto*/
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, IS_UNSIGNED(int) ? 'U' : 'I', IS_UNSIGNED(int), 0 };
-#define __Pyx_MODULE_NAME "abnet.process_strings_cy"
-int __pyx_module_is_main_abnet__process_strings_cy = 0;
+#define __Pyx_MODULE_NAME "imnet.process_strings_cy"
+int __pyx_module_is_main_imnet__process_strings_cy = 0;
 
-/* Implementation of 'abnet.process_strings_cy' */
+/* Implementation of 'imnet.process_strings_cy' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_MemoryError;
@@ -1450,11 +1450,11 @@ static const char __pyx_k_MemoryView_of_r_object[] = "<MemoryView of %r object>"
 static const char __pyx_k_MemoryView_of_r_at_0x_x[] = "<MemoryView of %r at 0x%x>";
 static const char __pyx_k_contiguous_and_indirect[] = "<contiguous and indirect>";
 static const char __pyx_k_Cannot_index_with_type_s[] = "Cannot index with type '%s'";
-static const char __pyx_k_abnet_process_strings_cy[] = "abnet.process_strings_cy";
+static const char __pyx_k_imnet_process_strings_cy[] = "imnet.process_strings_cy";
 static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %d: %d.";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
-static const char __pyx_k_cluster_project_sis_ri_roskarr[] = "/cluster/project/sis/ri/roskarr/abnet/abnet/process_strings_cy.pyx";
+static const char __pyx_k_cluster_project_sis_ri_roskarr[] = "/cluster/project/sis/ri/roskarr/imnet/imnet/process_strings_cy.pyx";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_generate_matrix_elements_cython[] = "generate_matrix_elements_cython";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
@@ -1485,7 +1485,7 @@ static PyObject *__pyx_kp_s_Out_of_bounds_on_buffer_access_a;
 static PyObject *__pyx_n_s_TypeError;
 static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_n_s_ValueError;
-static PyObject *__pyx_n_s_abnet_process_strings_cy;
+static PyObject *__pyx_n_s_imnet_process_strings_cy;
 static PyObject *__pyx_n_s_allocate_buffer;
 static PyObject *__pyx_n_s_append;
 static PyObject *__pyx_n_s_args;
@@ -1565,8 +1565,8 @@ static PyObject *__pyx_kp_s_unable_to_allocate_array_data;
 static PyObject *__pyx_kp_s_unable_to_allocate_shape_and_str;
 static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, int __pyx_v_min_ld, int __pyx_v_max_ld); /* proto */
-static PyObject *__pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, CYTHON_UNUSED int __pyx_v_min_ld, int __pyx_v_max_ld); /* proto */
+static PyObject *__pyx_pf_5imnet_18process_strings_cy_get_degrees_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, int __pyx_v_min_ld, int __pyx_v_max_ld); /* proto */
+static PyObject *__pyx_pf_5imnet_18process_strings_cy_2generate_matrix_elements_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, CYTHON_UNUSED int __pyx_v_min_ld, int __pyx_v_max_ld); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -1599,7 +1599,7 @@ static PyObject *__pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_20
 static PyObject *__pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_22copy_fortran(struct __pyx_memoryview_obj *__pyx_v_self); /* proto */
 static void __pyx_memoryviewslice___pyx_pf_15View_dot_MemoryView_16_memoryviewslice___dealloc__(struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView_16_memoryviewslice_4base___get__(struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
-static PyObject *__pyx_tp_new_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -1630,7 +1630,7 @@ static PyObject *__pyx_tuple__22;
 static PyObject *__pyx_codeobj__15;
 static PyObject *__pyx_codeobj__17;
 
-/* "abnet/process_strings_cy.pyx":8
+/* "imnet/process_strings_cy.pyx":8
  * 
  * @cython.boundscheck(False)
  * def get_degrees_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -1639,9 +1639,9 @@ static PyObject *__pyx_codeobj__17;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5abnet_18process_strings_cy_1get_degrees_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_5abnet_18process_strings_cy_1get_degrees_cython = {"get_degrees_cython", (PyCFunction)__pyx_pw_5abnet_18process_strings_cy_1get_degrees_cython, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5abnet_18process_strings_cy_1get_degrees_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5imnet_18process_strings_cy_1get_degrees_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5imnet_18process_strings_cy_1get_degrees_cython = {"get_degrees_cython", (PyCFunction)__pyx_pw_5imnet_18process_strings_cy_1get_degrees_cython, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5imnet_18process_strings_cy_1get_degrees_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_idxs = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_v_strings = 0;
   int __pyx_v_min_ld;
@@ -1704,12 +1704,12 @@ static PyObject *__pyx_pw_5abnet_18process_strings_cy_1get_degrees_cython(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("get_degrees_cython", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 8, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("abnet.process_strings_cy.get_degrees_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("imnet.process_strings_cy.get_degrees_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_strings), (&PyList_Type), 1, "strings", 1))) __PYX_ERR(0, 8, __pyx_L1_error)
-  __pyx_r = __pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(__pyx_self, __pyx_v_idxs, __pyx_v_strings, __pyx_v_min_ld, __pyx_v_max_ld);
+  __pyx_r = __pyx_pf_5imnet_18process_strings_cy_get_degrees_cython(__pyx_self, __pyx_v_idxs, __pyx_v_strings, __pyx_v_min_ld, __pyx_v_max_ld);
 
   /* function exit code */
   goto __pyx_L0;
@@ -1720,7 +1720,7 @@ static PyObject *__pyx_pw_5abnet_18process_strings_cy_1get_degrees_cython(PyObje
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, int __pyx_v_min_ld, int __pyx_v_max_ld) {
+static PyObject *__pyx_pf_5imnet_18process_strings_cy_get_degrees_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, int __pyx_v_min_ld, int __pyx_v_max_ld) {
   int __pyx_v_size;
   int __pyx_v_idx;
   int __pyx_v_my_idx;
@@ -1754,7 +1754,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   Py_ssize_t __pyx_t_17;
   __Pyx_RefNannySetupContext("get_degrees_cython", 0);
 
-  /* "abnet/process_strings_cy.pyx":9
+  /* "imnet/process_strings_cy.pyx":9
  * @cython.boundscheck(False)
  * def get_degrees_cython(int [:] idxs, list strings, int min_ld, int max_ld):
  *     cdef int size = len(strings)             # <<<<<<<<<<<<<<
@@ -1768,7 +1768,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __pyx_t_1 = PyList_GET_SIZE(__pyx_v_strings); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 9, __pyx_L1_error)
   __pyx_v_size = __pyx_t_1;
 
-  /* "abnet/process_strings_cy.pyx":13
+  /* "imnet/process_strings_cy.pyx":13
  *     cdef int ld, my_length, s_length
  * 
  *     degrees = np.zeros((size, max_ld-min_ld + 2), dtype='int32')             # <<<<<<<<<<<<<<
@@ -1808,7 +1808,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __pyx_v_degrees = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "abnet/process_strings_cy.pyx":15
+  /* "imnet/process_strings_cy.pyx":15
  *     degrees = np.zeros((size, max_ld-min_ld + 2), dtype='int32')
  * 
  *     deg_dict = defaultdict(list)             # <<<<<<<<<<<<<<
@@ -1845,7 +1845,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __pyx_v_deg_dict = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "abnet/process_strings_cy.pyx":17
+  /* "imnet/process_strings_cy.pyx":17
  *     deg_dict = defaultdict(list)
  * 
  *     for i in range(len(idxs)):             # <<<<<<<<<<<<<<
@@ -1859,7 +1859,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_1; __pyx_t_6+=1) {
     __pyx_v_i = __pyx_t_6;
 
-    /* "abnet/process_strings_cy.pyx":18
+    /* "imnet/process_strings_cy.pyx":18
  * 
  *     for i in range(len(idxs)):
  *         my_idx = idxs[i]             # <<<<<<<<<<<<<<
@@ -1870,7 +1870,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_idxs.shape[0];
     __pyx_v_my_idx = (*((int *) ( /* dim=0 */ (__pyx_v_idxs.data + __pyx_t_7 * __pyx_v_idxs.strides[0]) )));
 
-    /* "abnet/process_strings_cy.pyx":19
+    /* "imnet/process_strings_cy.pyx":19
  *     for i in range(len(idxs)):
  *         my_idx = idxs[i]
  *         my_string = strings[my_idx]             # <<<<<<<<<<<<<<
@@ -1886,7 +1886,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __Pyx_XDECREF_SET(__pyx_v_my_string, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "abnet/process_strings_cy.pyx":20
+    /* "imnet/process_strings_cy.pyx":20
  *         my_idx = idxs[i]
  *         my_string = strings[my_idx]
  *         my_length = len(my_string)             # <<<<<<<<<<<<<<
@@ -1896,7 +1896,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __pyx_t_8 = PyObject_Length(__pyx_v_my_string); if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 20, __pyx_L1_error)
     __pyx_v_my_length = __pyx_t_8;
 
-    /* "abnet/process_strings_cy.pyx":21
+    /* "imnet/process_strings_cy.pyx":21
  *         my_string = strings[my_idx]
  *         my_length = len(my_string)
  *         my_degrees = []             # <<<<<<<<<<<<<<
@@ -1908,7 +1908,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __Pyx_XDECREF_SET(__pyx_v_my_degrees, ((PyObject*)__pyx_t_2));
     __pyx_t_2 = 0;
 
-    /* "abnet/process_strings_cy.pyx":24
+    /* "imnet/process_strings_cy.pyx":24
  * 
  *         # generate connections
  *         for idx in range(my_idx):             # <<<<<<<<<<<<<<
@@ -1919,7 +1919,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
       __pyx_v_idx = __pyx_t_10;
 
-      /* "abnet/process_strings_cy.pyx":25
+      /* "imnet/process_strings_cy.pyx":25
  *         # generate connections
  *         for idx in range(my_idx):
  *             s = strings[idx]             # <<<<<<<<<<<<<<
@@ -1935,7 +1935,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       __Pyx_XDECREF_SET(__pyx_v_s, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "abnet/process_strings_cy.pyx":26
+      /* "imnet/process_strings_cy.pyx":26
  *         for idx in range(my_idx):
  *             s = strings[idx]
  *             ld = distance(my_string, s)             # <<<<<<<<<<<<<<
@@ -1975,7 +1975,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_v_ld = __pyx_t_11;
 
-      /* "abnet/process_strings_cy.pyx":29
+      /* "imnet/process_strings_cy.pyx":29
  * 
  *             # if it's a connection, bump the degree count for source and destination
  *             if ld <= max_ld:             # <<<<<<<<<<<<<<
@@ -1985,7 +1985,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       __pyx_t_12 = ((__pyx_v_ld <= __pyx_v_max_ld) != 0);
       if (__pyx_t_12) {
 
-        /* "abnet/process_strings_cy.pyx":30
+        /* "imnet/process_strings_cy.pyx":30
  *             # if it's a connection, bump the degree count for source and destination
  *             if ld <= max_ld:
  *                 my_degrees.append(ld)             # <<<<<<<<<<<<<<
@@ -1997,7 +1997,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
         __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_my_degrees, __pyx_t_2); if (unlikely(__pyx_t_13 == -1)) __PYX_ERR(0, 30, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "abnet/process_strings_cy.pyx":31
+        /* "imnet/process_strings_cy.pyx":31
  *             if ld <= max_ld:
  *                 my_degrees.append(ld)
  *                 deg_dict[idx].append(ld)             # <<<<<<<<<<<<<<
@@ -2012,7 +2012,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "abnet/process_strings_cy.pyx":29
+        /* "imnet/process_strings_cy.pyx":29
  * 
  *             # if it's a connection, bump the degree count for source and destination
  *             if ld <= max_ld:             # <<<<<<<<<<<<<<
@@ -2022,7 +2022,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       }
     }
 
-    /* "abnet/process_strings_cy.pyx":33
+    /* "imnet/process_strings_cy.pyx":33
  *                 deg_dict[idx].append(ld)
  * 
  *         deg_dict[my_idx] += my_degrees             # <<<<<<<<<<<<<<
@@ -2038,7 +2038,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     if (unlikely(__Pyx_SetItemInt(__pyx_v_deg_dict, __pyx_t_9, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 0) < 0)) __PYX_ERR(0, 33, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "abnet/process_strings_cy.pyx":36
+    /* "imnet/process_strings_cy.pyx":36
  * 
  *         # save the degree count for my_idx
  *         if i%100==0:             # <<<<<<<<<<<<<<
@@ -2048,7 +2048,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __pyx_t_12 = ((__Pyx_mod_long(__pyx_v_i, 0x64) == 0) != 0);
     if (__pyx_t_12) {
 
-      /* "abnet/process_strings_cy.pyx":37
+      /* "imnet/process_strings_cy.pyx":37
  *         # save the degree count for my_idx
  *         if i%100==0:
  *             for idx in deg_dict.keys():             # <<<<<<<<<<<<<<
@@ -2119,7 +2119,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_v_idx = __pyx_t_9;
 
-        /* "abnet/process_strings_cy.pyx":38
+        /* "imnet/process_strings_cy.pyx":38
  *         if i%100==0:
  *             for idx in deg_dict.keys():
  *                 degree_count = np.bincount(deg_dict[idx])             # <<<<<<<<<<<<<<
@@ -2162,7 +2162,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
         __Pyx_XDECREF_SET(__pyx_v_degree_count, __pyx_t_2);
         __pyx_t_2 = 0;
 
-        /* "abnet/process_strings_cy.pyx":39
+        /* "imnet/process_strings_cy.pyx":39
  *             for idx in deg_dict.keys():
  *                 degree_count = np.bincount(deg_dict[idx])
  *                 degrees[idx, 0:len(degree_count)] += degree_count             # <<<<<<<<<<<<<<
@@ -2194,7 +2194,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "abnet/process_strings_cy.pyx":37
+        /* "imnet/process_strings_cy.pyx":37
  *         # save the degree count for my_idx
  *         if i%100==0:
  *             for idx in deg_dict.keys():             # <<<<<<<<<<<<<<
@@ -2204,7 +2204,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "abnet/process_strings_cy.pyx":42
+      /* "imnet/process_strings_cy.pyx":42
  * 
  *             # reset the dictionary
  *             deg_dict = defaultdict(list)             # <<<<<<<<<<<<<<
@@ -2241,7 +2241,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
       __Pyx_DECREF_SET(__pyx_v_deg_dict, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "abnet/process_strings_cy.pyx":36
+      /* "imnet/process_strings_cy.pyx":36
  * 
  *         # save the degree count for my_idx
  *         if i%100==0:             # <<<<<<<<<<<<<<
@@ -2251,7 +2251,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     }
   }
 
-  /* "abnet/process_strings_cy.pyx":45
+  /* "imnet/process_strings_cy.pyx":45
  * 
  *     # clear the remaining items from temporary dictionary
  *     for idx in deg_dict.keys():             # <<<<<<<<<<<<<<
@@ -2322,7 +2322,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_idx = __pyx_t_6;
 
-    /* "abnet/process_strings_cy.pyx":46
+    /* "imnet/process_strings_cy.pyx":46
  *     # clear the remaining items from temporary dictionary
  *     for idx in deg_dict.keys():
  *             degree_count = np.bincount(deg_dict[idx])             # <<<<<<<<<<<<<<
@@ -2365,7 +2365,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __Pyx_XDECREF_SET(__pyx_v_degree_count, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "abnet/process_strings_cy.pyx":47
+    /* "imnet/process_strings_cy.pyx":47
  *     for idx in deg_dict.keys():
  *             degree_count = np.bincount(deg_dict[idx])
  *             degrees[idx, 0:len(degree_count)] += degree_count             # <<<<<<<<<<<<<<
@@ -2397,7 +2397,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "abnet/process_strings_cy.pyx":45
+    /* "imnet/process_strings_cy.pyx":45
  * 
  *     # clear the remaining items from temporary dictionary
  *     for idx in deg_dict.keys():             # <<<<<<<<<<<<<<
@@ -2407,7 +2407,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "abnet/process_strings_cy.pyx":49
+  /* "imnet/process_strings_cy.pyx":49
  *             degrees[idx, 0:len(degree_count)] += degree_count
  * 
  *     return degrees             # <<<<<<<<<<<<<<
@@ -2419,7 +2419,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __pyx_r = __pyx_v_degrees;
   goto __pyx_L0;
 
-  /* "abnet/process_strings_cy.pyx":8
+  /* "imnet/process_strings_cy.pyx":8
  * 
  * @cython.boundscheck(False)
  * def get_degrees_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -2435,7 +2435,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_15);
   __Pyx_XDECREF(__pyx_t_16);
-  __Pyx_AddTraceback("abnet.process_strings_cy.get_degrees_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("imnet.process_strings_cy.get_degrees_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_degrees);
@@ -2449,9 +2449,9 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_get_degrees_cython(CYTHON_
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_CoroutineObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
+static PyObject *__pyx_gb_5imnet_18process_strings_cy_4generator(__pyx_CoroutineObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "abnet/process_strings_cy.pyx":52
+/* "imnet/process_strings_cy.pyx":52
  * 
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -2460,9 +2460,9 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5abnet_18process_strings_cy_3generate_matrix_elements_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_5abnet_18process_strings_cy_3generate_matrix_elements_cython = {"generate_matrix_elements_cython", (PyCFunction)__pyx_pw_5abnet_18process_strings_cy_3generate_matrix_elements_cython, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5abnet_18process_strings_cy_3generate_matrix_elements_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5imnet_18process_strings_cy_3generate_matrix_elements_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5imnet_18process_strings_cy_3generate_matrix_elements_cython = {"generate_matrix_elements_cython", (PyCFunction)__pyx_pw_5imnet_18process_strings_cy_3generate_matrix_elements_cython, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5imnet_18process_strings_cy_3generate_matrix_elements_cython(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_idxs = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_v_strings = 0;
   CYTHON_UNUSED int __pyx_v_min_ld;
@@ -2525,12 +2525,12 @@ static PyObject *__pyx_pw_5abnet_18process_strings_cy_3generate_matrix_elements_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("generate_matrix_elements_cython", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 52, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("abnet.process_strings_cy.generate_matrix_elements_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("imnet.process_strings_cy.generate_matrix_elements_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_strings), (&PyList_Type), 1, "strings", 1))) __PYX_ERR(0, 52, __pyx_L1_error)
-  __pyx_r = __pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_cython(__pyx_self, __pyx_v_idxs, __pyx_v_strings, __pyx_v_min_ld, __pyx_v_max_ld);
+  __pyx_r = __pyx_pf_5imnet_18process_strings_cy_2generate_matrix_elements_cython(__pyx_self, __pyx_v_idxs, __pyx_v_strings, __pyx_v_min_ld, __pyx_v_max_ld);
 
   /* function exit code */
   goto __pyx_L0;
@@ -2541,12 +2541,12 @@ static PyObject *__pyx_pw_5abnet_18process_strings_cy_3generate_matrix_elements_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, CYTHON_UNUSED int __pyx_v_min_ld, int __pyx_v_max_ld) {
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_cur_scope;
+static PyObject *__pyx_pf_5imnet_18process_strings_cy_2generate_matrix_elements_cython(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_idxs, PyObject *__pyx_v_strings, CYTHON_UNUSED int __pyx_v_min_ld, int __pyx_v_max_ld) {
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_cur_scope;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("generate_matrix_elements_cython", 0);
-  __pyx_cur_scope = (struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)__pyx_tp_new_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(__pyx_ptype_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, __pyx_empty_tuple, NULL);
+  __pyx_cur_scope = (struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)__pyx_tp_new_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(__pyx_ptype_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, __pyx_empty_tuple, NULL);
   if (unlikely(!__pyx_cur_scope)) {
     __Pyx_RefNannyFinishContext();
     return NULL;
@@ -2559,7 +2559,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_
   __pyx_cur_scope->__pyx_v_min_ld = __pyx_v_min_ld;
   __pyx_cur_scope->__pyx_v_max_ld = __pyx_v_max_ld;
   {
-    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_5abnet_18process_strings_cy_4generator, (PyObject *) __pyx_cur_scope, __pyx_n_s_generate_matrix_elements_cython, __pyx_n_s_generate_matrix_elements_cython); if (unlikely(!gen)) __PYX_ERR(0, 52, __pyx_L1_error)
+    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_5imnet_18process_strings_cy_4generator, (PyObject *) __pyx_cur_scope, __pyx_n_s_generate_matrix_elements_cython, __pyx_n_s_generate_matrix_elements_cython); if (unlikely(!gen)) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -2567,7 +2567,7 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("abnet.process_strings_cy.generate_matrix_elements_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("imnet.process_strings_cy.generate_matrix_elements_cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __PYX_XDEC_MEMVIEW(&__pyx_cur_scope->__pyx_v_idxs, 1);
   __Pyx_DECREF(((PyObject *)__pyx_cur_scope));
@@ -2576,9 +2576,9 @@ static PyObject *__pyx_pf_5abnet_18process_strings_cy_2generate_matrix_elements_
   return __pyx_r;
 }
 
-static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_CoroutineObject *__pyx_generator, PyObject *__pyx_sent_value) /* generator body */
+static PyObject *__pyx_gb_5imnet_18process_strings_cy_4generator(__pyx_CoroutineObject *__pyx_generator, PyObject *__pyx_sent_value) /* generator body */
 {
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_cur_scope = ((struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)__pyx_generator->closure);
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_cur_scope = ((struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)__pyx_generator->closure);
   PyObject *__pyx_r = NULL;
   Py_ssize_t __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
@@ -2604,7 +2604,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
   __pyx_L3_first_run:;
   if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 52, __pyx_L1_error)
 
-  /* "abnet/process_strings_cy.pyx":53
+  /* "imnet/process_strings_cy.pyx":53
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):
  *     cdef int nstrings = len(strings)             # <<<<<<<<<<<<<<
@@ -2618,7 +2618,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
   __pyx_t_1 = PyList_GET_SIZE(__pyx_cur_scope->__pyx_v_strings); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 53, __pyx_L1_error)
   __pyx_cur_scope->__pyx_v_nstrings = __pyx_t_1;
 
-  /* "abnet/process_strings_cy.pyx":57
+  /* "imnet/process_strings_cy.pyx":57
  *     cdef int ld, my_length, s_length
  * 
  *     for i in range(len(idxs)):             # <<<<<<<<<<<<<<
@@ -2632,7 +2632,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_1; __pyx_t_3+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_3;
 
-    /* "abnet/process_strings_cy.pyx":58
+    /* "imnet/process_strings_cy.pyx":58
  * 
  *     for i in range(len(idxs)):
  *         my_idx = idxs[i]             # <<<<<<<<<<<<<<
@@ -2643,7 +2643,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
     if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_cur_scope->__pyx_v_idxs.shape[0];
     __pyx_cur_scope->__pyx_v_my_idx = (*((int *) ( /* dim=0 */ (__pyx_cur_scope->__pyx_v_idxs.data + __pyx_t_4 * __pyx_cur_scope->__pyx_v_idxs.strides[0]) )));
 
-    /* "abnet/process_strings_cy.pyx":59
+    /* "imnet/process_strings_cy.pyx":59
  *     for i in range(len(idxs)):
  *         my_idx = idxs[i]
  *         my_string = strings[my_idx]             # <<<<<<<<<<<<<<
@@ -2661,7 +2661,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "abnet/process_strings_cy.pyx":62
+    /* "imnet/process_strings_cy.pyx":62
  * 
  *         # generate connections
  *         for idx in range(my_idx):             # <<<<<<<<<<<<<<
@@ -2672,7 +2672,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_cur_scope->__pyx_v_idx = __pyx_t_6;
 
-      /* "abnet/process_strings_cy.pyx":63
+      /* "imnet/process_strings_cy.pyx":63
  *         # generate connections
  *         for idx in range(my_idx):
  *             s = strings[idx]             # <<<<<<<<<<<<<<
@@ -2690,7 +2690,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
       __Pyx_GIVEREF(__pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "abnet/process_strings_cy.pyx":64
+      /* "imnet/process_strings_cy.pyx":64
  *         for idx in range(my_idx):
  *             s = strings[idx]
  *             ld = distance(my_string,s)             # <<<<<<<<<<<<<<
@@ -2730,7 +2730,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_cur_scope->__pyx_v_ld = __pyx_t_11;
 
-      /* "abnet/process_strings_cy.pyx":67
+      /* "imnet/process_strings_cy.pyx":67
  * 
  *             # if it's a connection, yield the coordinates and the Levenshtein distance
  *             if ld <= max_ld:             # <<<<<<<<<<<<<<
@@ -2739,7 +2739,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
       __pyx_t_12 = ((__pyx_cur_scope->__pyx_v_ld <= __pyx_cur_scope->__pyx_v_max_ld) != 0);
       if (__pyx_t_12) {
 
-        /* "abnet/process_strings_cy.pyx":68
+        /* "imnet/process_strings_cy.pyx":68
  *             # if it's a connection, yield the coordinates and the Levenshtein distance
  *             if ld <= max_ld:
  *                 yield (my_idx, idx, ld)             # <<<<<<<<<<<<<<
@@ -2781,7 +2781,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
         __pyx_t_6 = __pyx_cur_scope->__pyx_t_4;
         if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 68, __pyx_L1_error)
 
-        /* "abnet/process_strings_cy.pyx":67
+        /* "imnet/process_strings_cy.pyx":67
  * 
  *             # if it's a connection, yield the coordinates and the Levenshtein distance
  *             if ld <= max_ld:             # <<<<<<<<<<<<<<
@@ -2791,7 +2791,7 @@ static PyObject *__pyx_gb_5abnet_18process_strings_cy_4generator(__pyx_Coroutine
     }
   }
 
-  /* "abnet/process_strings_cy.pyx":52
+  /* "imnet/process_strings_cy.pyx":52
  * 
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -14392,44 +14392,44 @@ static void __pyx_memoryview__slice_assign_scalar(char *__pyx_v_data, Py_ssize_t
   /* function exit code */
 }
 
-static struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_freelist_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[8];
-static int __pyx_freecount_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = 0;
+static struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *__pyx_freelist_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[8];
+static int __pyx_freecount_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = 0;
 
-static PyObject *__pyx_tp_new_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p;
+static PyObject *__pyx_tp_new_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p;
   PyObject *o;
-  if (CYTHON_COMPILING_IN_CPYTHON && likely((__pyx_freecount_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython > 0) & (t->tp_basicsize == sizeof(struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython)))) {
-    o = (PyObject*)__pyx_freelist_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[--__pyx_freecount_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython];
-    memset(o, 0, sizeof(struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython));
+  if (CYTHON_COMPILING_IN_CPYTHON && likely((__pyx_freecount_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython > 0) & (t->tp_basicsize == sizeof(struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython)))) {
+    o = (PyObject*)__pyx_freelist_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[--__pyx_freecount_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython];
+    memset(o, 0, sizeof(struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython));
     (void) PyObject_INIT(o, t);
     PyObject_GC_Track(o);
   } else {
     o = (*t->tp_alloc)(t, 0);
     if (unlikely(!o)) return 0;
   }
-  p = ((struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o);
+  p = ((struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o);
   p->__pyx_v_idxs.data = NULL;
   p->__pyx_v_idxs.memview = NULL;
   return o;
 }
 
-static void __pyx_tp_dealloc_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o) {
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
+static void __pyx_tp_dealloc_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o) {
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
   PyObject_GC_UnTrack(o);
   Py_CLEAR(p->__pyx_v_my_string);
   Py_CLEAR(p->__pyx_v_s);
   Py_CLEAR(p->__pyx_v_strings);
   __PYX_XDEC_MEMVIEW(&p->__pyx_v_idxs, 1);
-  if (CYTHON_COMPILING_IN_CPYTHON && ((__pyx_freecount_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython < 8) & (Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython)))) {
-    __pyx_freelist_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[__pyx_freecount_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython++] = ((struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o);
+  if (CYTHON_COMPILING_IN_CPYTHON && ((__pyx_freecount_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython < 8) & (Py_TYPE(o)->tp_basicsize == sizeof(struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython)))) {
+    __pyx_freelist_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython[__pyx_freecount_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython++] = ((struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o);
   } else {
     (*Py_TYPE(o)->tp_free)(o);
   }
 }
 
-static int __pyx_tp_traverse_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
   if (p->__pyx_v_my_string) {
     e = (*v)(p->__pyx_v_my_string, a); if (e) return e;
   }
@@ -14442,9 +14442,9 @@ static int __pyx_tp_traverse_5abnet_18process_strings_cy___pyx_scope_struct__gen
   return 0;
 }
 
-static int __pyx_tp_clear_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o) {
+static int __pyx_tp_clear_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
+  struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *p = (struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython *)o;
   tmp = ((PyObject*)p->__pyx_v_my_string);
   p->__pyx_v_my_string = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
@@ -14457,12 +14457,12 @@ static int __pyx_tp_clear_5abnet_18process_strings_cy___pyx_scope_struct__genera
   return 0;
 }
 
-static PyTypeObject __pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = {
+static PyTypeObject __pyx_type_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = {
   PyVarObject_HEAD_INIT(0, 0)
-  "abnet.process_strings_cy.__pyx_scope_struct__generate_matrix_elements_cython", /*tp_name*/
-  sizeof(struct __pyx_obj_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython), /*tp_basicsize*/
+  "imnet.process_strings_cy.__pyx_scope_struct__generate_matrix_elements_cython", /*tp_name*/
+  sizeof(struct __pyx_obj_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_dealloc*/
+  __pyx_tp_dealloc_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -14484,8 +14484,8 @@ static PyTypeObject __pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__g
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_traverse*/
-  __pyx_tp_clear_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_clear*/
+  __pyx_tp_traverse_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_traverse*/
+  __pyx_tp_clear_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -14500,7 +14500,7 @@ static PyTypeObject __pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__g
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_new*/
+  __pyx_tp_new_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -14634,7 +14634,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "abnet.process_strings_cy.array", /*tp_name*/
+  "imnet.process_strings_cy.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -14740,7 +14740,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "abnet.process_strings_cy.Enum", /*tp_name*/
+  "imnet.process_strings_cy.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -14987,7 +14987,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "abnet.process_strings_cy.memoryview", /*tp_name*/
+  "imnet.process_strings_cy.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -15112,7 +15112,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "abnet.process_strings_cy._memoryviewslice", /*tp_name*/
+  "imnet.process_strings_cy._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -15218,7 +15218,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
   {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
-  {&__pyx_n_s_abnet_process_strings_cy, __pyx_k_abnet_process_strings_cy, sizeof(__pyx_k_abnet_process_strings_cy), 0, 0, 1, 1},
+  {&__pyx_n_s_imnet_process_strings_cy, __pyx_k_imnet_process_strings_cy, sizeof(__pyx_k_imnet_process_strings_cy), 0, 0, 1, 1},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
   {&__pyx_n_s_append, __pyx_k_append, sizeof(__pyx_k_append), 0, 0, 1, 1},
   {&__pyx_n_s_args, __pyx_k_args, sizeof(__pyx_k_args), 0, 0, 1, 1},
@@ -15464,7 +15464,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "abnet/process_strings_cy.pyx":8
+  /* "imnet/process_strings_cy.pyx":8
  * 
  * @cython.boundscheck(False)
  * def get_degrees_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -15476,7 +15476,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__14);
   __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(4, 0, 17, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cluster_project_sis_ri_roskarr, __pyx_n_s_get_degrees_cython, 8, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) __PYX_ERR(0, 8, __pyx_L1_error)
 
-  /* "abnet/process_strings_cy.pyx":52
+  /* "imnet/process_strings_cy.pyx":52
  * 
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
@@ -15626,14 +15626,14 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_abnet__process_strings_cy) {
+  if (__pyx_module_is_main_imnet__process_strings_cy) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "abnet.process_strings_cy")) {
-      if (unlikely(PyDict_SetItemString(modules, "abnet.process_strings_cy", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "imnet.process_strings_cy")) {
+      if (unlikely(PyDict_SetItemString(modules, "imnet.process_strings_cy", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -15650,9 +15650,9 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
-  __pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython.tp_print = 0;
-  __pyx_ptype_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = &__pyx_type_5abnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython;
+  if (PyType_Ready(&__pyx_type_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  __pyx_type_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython.tp_print = 0;
+  __pyx_ptype_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython = &__pyx_type_5imnet_18process_strings_cy___pyx_scope_struct__generate_matrix_elements_cython;
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
   if (PyType_Ready(&__pyx_type___pyx_array) < 0) __PYX_ERR(1, 103, __pyx_L1_error)
@@ -15691,7 +15691,7 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "abnet/process_strings_cy.pyx":1
+  /* "imnet/process_strings_cy.pyx":1
  * from Levenshtein import distance             # <<<<<<<<<<<<<<
  * import numpy as np
  * from collections import defaultdict
@@ -15710,7 +15710,7 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "abnet/process_strings_cy.pyx":2
+  /* "imnet/process_strings_cy.pyx":2
  * from Levenshtein import distance
  * import numpy as np             # <<<<<<<<<<<<<<
  * from collections import defaultdict
@@ -15721,7 +15721,7 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "abnet/process_strings_cy.pyx":3
+  /* "imnet/process_strings_cy.pyx":3
  * from Levenshtein import distance
  * import numpy as np
  * from collections import defaultdict             # <<<<<<<<<<<<<<
@@ -15742,31 +15742,31 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "abnet/process_strings_cy.pyx":8
+  /* "imnet/process_strings_cy.pyx":8
  * 
  * @cython.boundscheck(False)
  * def get_degrees_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
  *     cdef int size = len(strings)
  *     cdef int idx, my_idx, i
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5abnet_18process_strings_cy_1get_degrees_cython, NULL, __pyx_n_s_abnet_process_strings_cy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5imnet_18process_strings_cy_1get_degrees_cython, NULL, __pyx_n_s_imnet_process_strings_cy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_degrees_cython, __pyx_t_1) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "abnet/process_strings_cy.pyx":52
+  /* "imnet/process_strings_cy.pyx":52
  * 
  * @cython.boundscheck(False)
  * def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int max_ld):             # <<<<<<<<<<<<<<
  *     cdef int nstrings = len(strings)
  *     cdef int idx, my_idx, i
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5abnet_18process_strings_cy_3generate_matrix_elements_cython, NULL, __pyx_n_s_abnet_process_strings_cy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 52, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5imnet_18process_strings_cy_3generate_matrix_elements_cython, NULL, __pyx_n_s_imnet_process_strings_cy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_generate_matrix_elements_cython, __pyx_t_1) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "abnet/process_strings_cy.pyx":1
+  /* "imnet/process_strings_cy.pyx":1
  * from Levenshtein import distance             # <<<<<<<<<<<<<<
  * import numpy as np
  * from collections import defaultdict
@@ -15927,11 +15927,11 @@ PyMODINIT_FUNC PyInit_process_strings_cy(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init abnet.process_strings_cy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init imnet.process_strings_cy", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init abnet.process_strings_cy");
+    PyErr_SetString(PyExc_ImportError, "init imnet.process_strings_cy");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

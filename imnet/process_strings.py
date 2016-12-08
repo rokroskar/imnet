@@ -424,7 +424,7 @@ def write_output(strings, kind, outfile, min_ld=1, max_ld=1, sc=None):
     sc : pyspark.SparkContext
         a live SparkContext; if none is given, the calculation is done locally
 
-    See `abnet.process_strings` for optional keywords
+    See `imnet.process_strings` for optional keywords
     """
 
     if kind == 'graph': 

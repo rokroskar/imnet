@@ -14,9 +14,9 @@
 # - SPARK_LOCAL_IP, to set the IP address Spark binds to on this node
 # - SPARK_PUBLIC_DNS, to set the public DNS name of the driver program
 # - SPARK_CLASSPATH, default classpath entries to append
-export SPARK_LOCAL_DIRS="$__LSF_JOB_TMPDIR__, /scratch/spark-${USER}"
+export SPARK_LOCAL_DIRS="$__LSF_JOB_TMPDIR__,/scratch/spark-${USER}"
 export LOCAL_DIRS="$__LSF_JOB_TMPDIR__, /scratch/spark-${USER}"
-export SPARK_WORKER_DIR="$__LSF_JOB_TMPDIR__/work, /scratch/spark-${USER}/work"
+export SPARK_WORKER_DIR="$__LSF_JOB_TMPDIR__/work,/scratch/spark-${USER}/work"
 # - MESOS_NATIVE_LIBRARY, to point to your libmesos.so if you use Mesos
 
 # Options read in YARN client mode
