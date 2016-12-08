@@ -1,4 +1,4 @@
-# imNet: an Antibody Repertoire Network Construction Toolkit
+# imNet: a Sequence Network Construction Toolkit
 
 `imNet` is a software package for the generation and analysis of large-scale immunological and biological sequence networks. Used together with Apache Spark running on a computer cluster, `imNet` can be used to analyze network properties from samples of hundreds of thousands or even millions of sequences in a reasonable amount of time. 
 
