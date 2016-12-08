@@ -1,9 +1,16 @@
 from setuptools import setup
-from Cython.Build import cythonize
 from distutils.extension import Extension
-import numpy 
-
+import warnings
 import os
+
+try: 
+    from Cython.Build import cythonize
+except ImportError: 
+    warnings.warn('No cython found -- install will use pre-generated C files')
+try: 
+    import numpy     
+except ImportError:
+    warnings.warn('No numpy found -- install will use pre-generated C files')
 
 currdir = os.getcwd()
 
