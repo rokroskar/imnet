@@ -34,6 +34,7 @@ You only need to worry about installing these by hand if you are installing from
 ### basic python libraries
 
 These should all be installable via `pip` or `conda`:
+
 * click 
 * findspark 
 * python-Levenshtein 
