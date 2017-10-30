@@ -164,7 +164,7 @@ def directory(ctx, input_dir, string_loc):
     if not os.path.exists(ctx.obj['outdir']):
         raise IOError('Directory %s not found'%ou)
 
-    for filename in files[:2]:
+    for filename in files:
         sc_val = sc if count_lines(filename) > ctx.obj['sc_cutoff'] else None
         imnet.process_file(filename, sc=sc_val, string_loc=string_loc, **ctx.obj)
 
