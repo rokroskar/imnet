@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import absolute_import
 
 import Levenshtein
 from scipy.sparse import csr_matrix
@@ -12,7 +13,7 @@ import logging
 import pandas as pd
 from random import shuffle
 
-from process_strings_cy import get_degrees_cython, generate_matrix_elements_cython
+from .process_strings_cy import get_degrees_cython, generate_matrix_elements_cython
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
