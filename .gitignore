@@ -9,6 +9,7 @@ build/
 lsf.*
 _build
 
+imnet.egg-info
 
 .idea
 dist
