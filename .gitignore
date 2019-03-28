@@ -8,3 +8,8 @@
 build/
 lsf.*
 _build
+
+
+.idea
+dist
+venv
