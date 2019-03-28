@@ -64,5 +64,5 @@ def generate_matrix_elements_cython(int [:] idxs, list strings, int min_ld, int 
             ld = distance(my_string,s)
 
             # if it's a connection, yield the coordinates and the Levenshtein distance
-            if ld <= max_ld: 
+            if my_idx != idx and ld <= max_ld: 
                 yield (my_idx, idx, ld)
