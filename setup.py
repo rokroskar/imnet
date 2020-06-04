@@ -80,6 +80,7 @@ setup(
         "scipy",
         "networkx",
         "pandas",
+        "cython",
     ],
     keywords=["pyspark", "genomics", "hpc", "bioinformatics"],
 )
