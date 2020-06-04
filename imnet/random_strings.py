@@ -1,9 +1,13 @@
 import random
 
-def set_seed(seed): 
+
+def set_seed(seed):
     random.seed(seed)
 
-def generate_random_sequences(N, minimum_length=4, maximum_length=20, seed=1, letters='ACDEFGHIKLMNPQRSTVWY'):
+
+def generate_random_sequences(
+    N, minimum_length=4, maximum_length=20, seed=1, letters="ACDEFGHIKLMNPQRSTVWY"
+):
     """
     Generate a list of random strings
 
@@ -27,8 +31,7 @@ def generate_random_sequences(N, minimum_length=4, maximum_length=20, seed=1, le
 
     for i in range(N):
         random_integer = random.randrange(minimum_length, maximum_length)
-        s = ''.join(random.choice(letters) for _ in range(random_integer))
+        s = "".join(random.choice(letters) for _ in range(random_integer))
         string_list.append(s)
 
     return string_list
-
