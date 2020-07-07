@@ -66,7 +66,7 @@ currdir = os.getcwd()
 setup(
     name="imnet",
     author="Rok Roskar",
-    version="0.2.0",
+    version="0.2.1",
     author_email="roskar@ethz.ch",
     url="http://github.com/rokroskar/imnet",
     package_dir={"imnet/": ""},
